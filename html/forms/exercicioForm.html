@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Exercicio forms</title>
+  </head>
+  <body>
+    <h3>Cadastro da liga dos astrounautas</h3>
+    <form>
+      <div>
+        <label for="name"><strong>Nome:</strong></label>
+        <input type="text" id="name" name="name" />
+      </div>
+      <br />
+      <br />
+      <div>
+        <label for="email"><strong>Email:</strong></label>
+        <input type="email" id="email" name="email" />
+        <label for="password"><strong>-Password:</strong></label>
+        <input type="password" id="password" name="password" />
+      </div>
+      <br />
+      <div>
+        <label for="date"><strong>Data de nascimento:</strong></label>
+        <input type="date" id="date" name="date" />
+        <label for="photo"><strong>-Foto:</strong></label>
+        <input type="file" id="photo" name="photo" />
+      </div>
+      <br />
+      <div>
+        <label for="Nacionality"><strong> Nacionaliade:</strong></label>
+        <select id="Nacionality" name="Nacionality">
+          <option value="Brasileiro">Brasileiro</option>
+          <option value="Russo">Russo</option>
+          <option value="Espanhol">Espanhol</option>
+          <option value="Alemão">Alemão</option>
+        </select>
+        <span><strong>Genero:</strong></span>
+        <label for="male">M</label>
+        <input type="radio" id="male" name="gender" value="M" />
+        <label for="female">F</label>
+        <input type="radio" id="female" name="gender" value="F" />
+      </div>
+      <br />
+      <div>
+        <label><strong>Suas principais qualidades:</strong></label>
+        <br />
+        <label for="q1">Inteligência</label>
+        <input type="checkbox" id="q1" name="q1" value="inteligencia" />
+        <label for="q2">| Resiliência</label>
+        <input type="checkbox" id="q2" name="q2" value="Resiliência" />
+        <label for="q3">| Preparo físico</label>
+        <input type="checkbox" id="q3" name="q3" value="Preparo físico" />
+        <label for="q4">| Educação</label>
+        <input type="checkbox" id="q4" name="q4" value="Educação" />
+        <span>|</span>
+      </div>
+      <br />
+      <div>
+        <textarea
+          name="description"
+          id="description"
+          cols="30"
+          rows="10"
+          placeholder="Porque você gostaria de ser astronauta?"
+        ></textarea>
+      </div>
+      <div>
+        <input type="submit" value="Criar" />
+      </div>
+    </form>
+  </body>
+</html>
