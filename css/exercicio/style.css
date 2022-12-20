@@ -1,0 +1,16 @@
+body {
+  background-color: #2c3e50;
+}
+.white-text {
+  color: #fff;
+}
+#yellow-text {
+  color: #f1c40f;
+}
+.border-yellow {
+  border: 2px solid;
+  background-color: #f1c40f;
+}
+.red-text {
+  color: #e74c3c;
+}
