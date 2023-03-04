@@ -35,7 +35,7 @@ console.log(`Mediana: ${mediana(15, 14, 8, 7, 3)}`)
 const moda = (...numbers) => {
   const quantidade = numbers.map(num => [
     num,
-    numbers.filter(n => num == n).length
+    numbers.filter(n => num === n).length
   ])
 
   quantidade.sort((a,b) => b[1] - a[1])
