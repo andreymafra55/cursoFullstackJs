@@ -1,14 +1,12 @@
-const { dirname } = require('path')
-const path = require('path')
-
 module.exports = {
   entry: {
     index: './src/index.js',
-    hello: './src/hello.js'
   },
-  mode: 'production',
-  output: {
-    path: path.resolve(__dirname,'public'),
-    filename: '[name].min.js'
+  mode: 'development',
+  module:{
+    rules: [{
+      test: /\.css$/, //arquivos em quais ele vai executar o loader
+      use: ['style-loader','css-loader']
+    }]
   }
 }
