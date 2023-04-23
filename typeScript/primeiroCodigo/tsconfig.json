@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "watch": true,
+    "target": "ESNext" //utiliza a versao mais nova do javascript
+  }
+}
